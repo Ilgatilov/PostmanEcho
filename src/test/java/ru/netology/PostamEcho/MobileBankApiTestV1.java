@@ -19,6 +19,6 @@ class MobileBankApiTestV1 {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("headers.content-length",equalTo("9"));
+                .body("headers.content-length",equalTo("8"));
     }
 }
